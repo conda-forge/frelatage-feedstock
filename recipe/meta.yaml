@@ -1,5 +1,5 @@
 {% set name = "frelatage" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/frelatage-{{ version }}.tar.gz
-  sha256: 930b779f301ece276e7e28808ad76182612b6b99fb8acfaad04e1c6122f53387
+  sha256: 2a00dcc672bf79071e8deefbfb1b8ebd9039db222fb06c5e3dc62f9161eb5a34
 
 build:
   noarch: python
